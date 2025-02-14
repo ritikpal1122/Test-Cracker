@@ -63,9 +63,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- GitHub: [@yourusername](https://github.com/ritikpal1122)
-- Twitter: [@yourusername](https://x.com/ritikpaltech)
-- LinkedIn: [Your Name](https://linkedin.com/in/ritikpal)
+- GitHub: [@ritikpal1122](https://github.com/ritikpal1122)
+- Twitter: [@ritikpaltech](https://x.com/ritikpaltech)
+- LinkedIn: [Ritik Pal](https://linkedin.com/in/ritikpal)
 
 ## 🌟 Support
 
