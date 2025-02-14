@@ -24,7 +24,7 @@ const Navigation = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="md:hidden fixed top-4 left-4 z-50 p-2 bg-gray-800 rounded-lg"
+        className="md:hidden fixed top-4 left-4 z-50 p-2  rounded-lg"
       >
         <Menu className="w-6 h-6 text-gray-400" />
       </button>
@@ -33,21 +33,21 @@ const Navigation = () => {
       <nav className={`fixed left-0 top-0 h-screen bg-gray-900 transition-all duration-300 z-40
         ${isMenuOpen ? 'w-64' : 'w-20'}
         md:w-20
-        flex flex-col items-center py-8`}
+        flex flex-col items-center py-12`}
       >
         {navItems.map((item) => (
           <Link
             key={item.path}
             to={item.path}
             onClick={() => setIsMenuOpen(false)}
-            className="relative w-full py-4 flex flex-col items-center group"
+            className="relative w-full py-4 flex flex-col items-start group"
           >
             {location.pathname === item.path && (
               <motion.div
                 layoutId="active"
                 className="absolute left-0 w-1 h-8 bg-purple-500 rounded-r-md"
                 initial={false}
-                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                transition={{ type: "spring", stiffness: 300, damping: 100 }}
               />
             )}
             <div className="flex items-center gap-4 px-6">
