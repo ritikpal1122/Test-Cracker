@@ -191,7 +191,7 @@ const Dashboard = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://github.com/yourusername/sdet-toolkit"
+              href="https://github.com/ritikpal1122/Test-Cracker"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
@@ -200,7 +200,7 @@ const Dashboard = () => {
               Star on GitHub
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://x.com/ritikpaltech"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
@@ -209,7 +209,7 @@ const Dashboard = () => {
               Follow Updates
             </a>
             <a
-              href="https://linkedin.com/in/yourname"
+              href="https://linkedin.com/in/ritikpal"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
